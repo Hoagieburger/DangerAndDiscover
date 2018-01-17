@@ -1,0 +1,20 @@
+Races: Human, Dwarf, Elf, Halfling, Gnome
+Classes: Fighter, Rogue, Ranger, Wizard
+Weapons: Dagger, Long bow, short sword, long sword, battle axe
+Spells: Fireball, 
+
+Outline:
+	Start in tavern, with x friends next to them
+	See a sign for a job (for stealthy or strong individuals) on a board
+		-if (no to job) --> drink for the day & die of alcohol poisoning FIN
+		-if (yes to job) --> continue
+	Job: free someone being held captive by orcs
+		-if (no to job) --> drink for the day & die of alcohol poisoning FIN
+		-if (yes to job) --> continue
+	Choice: Stealth or Brute Force
+		Stealth:
+			Scout the house
+			"Roll" perception
+				-if high --> open back window
+				-if medium --> open back door
+				-if low --> chimney
