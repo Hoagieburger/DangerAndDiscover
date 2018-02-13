@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Weapon
+comment0.text=\r\n\ Abstract\ class\ Weapon\ -\ write\ a\ description\ of\ the\ class\ here\r\n\r\n\ @author\ Joshua\ Hergenroeder\r\n\ @version\ v1\r\n
+comment1.params=name
+comment1.target=Weapon(java.lang.String)
+comment2.params=
+comment2.target=int\ attack()
+comment3.params=
+comment3.target=boolean\ parry()
+numComments=4

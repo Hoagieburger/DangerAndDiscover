@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=RangedEnemy
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Ranged\ here.\r\n\r\n\ @author\ Joshua\ Hergenroeder\r\n\ @version\ v1\r\n
+comment1.params=name\ height\ age\ hpMax\ hpCur\ str\ dex\ intelligence\ wis\ cha\ speed\ strSave\ dexSave\ intSave\ wisSave\ chaSave\ acro\ animalHand\ arcana\ athletics\ deception\ insight\ intimidation\ investigation\ medicine\ nature\ perception\ persuasion\ religion\ slightOfHand\ stealth\ survival\ passivePerception\ copper\ silver\ gold\ platinum\ proficiency\ initiativeMod\ level
+comment1.target=RangedEnemy(java.lang.String,\ double,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int)
+numComments=2

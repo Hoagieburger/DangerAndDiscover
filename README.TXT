@@ -4,9 +4,9 @@ Tell the reader (someone who does not know anything about this project)
 all he/she needs to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
-PROJECT TITLE: Danger & Disvovery
-PURPOSE OF PROJECT: A text-based adventure game used as an intro into D&D.
-VERSION or DATE: v1
+PROJECT TITLE:
+PURPOSE OF PROJECT:
+VERSION or DATE:
 HOW TO START THIS PROJECT:
 AUTHORS:
 USER INSTRUCTIONS:

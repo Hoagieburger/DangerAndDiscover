@@ -15,6 +15,15 @@ Outline:
 		Stealth:
 			Scout the house
 			"Roll" perception
+				-if nat 20 --> high without acrobatics roll
 				-if high --> open back window
+					"Roll" stealth check
+						-if high --> not heard -- suprise round gained
+						-if medium --> kind of heard but not belived --> defenders on edge
+							-Enter into a back hallway with 2 doors to left and 2 doors to the right
+								"Roll" Perception
+									-if high --> go to correct door
 				-if medium --> open back door
 				-if low --> chimney
+				-if crit fail --> front door
+		Brute Force:
