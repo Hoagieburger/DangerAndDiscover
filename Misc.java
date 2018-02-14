@@ -6,7 +6,7 @@
  */
 public abstract class Misc extends Item
 {
-    public Misc(String name){
-        super(name);
+    public Misc(String name, int cost){
+        super(name, cost);
     }
 }

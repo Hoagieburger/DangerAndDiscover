@@ -1,12 +1,12 @@
 /**
- * Abstract class Weapon - write a description of the class here
+ * Write a description of class ShortSword here.
  *
  * @author Joshua Hergenroeder
  * @version v1
  */
-public abstract class Weapon extends Item implements WeaponInterface
+public class ShortSword extends MeleeWeapon
 {
-    public Weapon(String name, int cost){
+    public ShortSword(String name, int cost){
         super(name, cost);
     }
     public int attack(){
@@ -14,5 +14,8 @@ public abstract class Weapon extends Item implements WeaponInterface
     }
     public boolean parry(){
         return false;
+    }
+    public String getName(){
+        return name;
     }
 }

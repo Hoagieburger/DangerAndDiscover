@@ -4,9 +4,9 @@
  * @author Joshua Hergenroeder
  * @version v1
  */
-public abstract class Armor extends Item
+public abstract class Armor extends Item implements DefenseCommands
 {
-    public Armor(String name){
-        super(name);
+    public Armor(String name, int cost){
+        super(name, cost);
     }
 }

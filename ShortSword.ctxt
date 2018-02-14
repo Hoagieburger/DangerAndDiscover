@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ShortSword
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ShortSword\ here.\r\n\r\n\ @author\ Joshua\ Hergenroeder\r\n\ @version\ v1\r\n
+comment1.params=name\ cost
+comment1.target=ShortSword(java.lang.String,\ int)
+comment2.params=
+comment2.target=int\ attack()
+comment3.params=
+comment3.target=boolean\ parry()
+comment4.params=
+comment4.target=java.lang.String\ getName()
+numComments=5
