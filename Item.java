@@ -9,8 +9,13 @@ public abstract class Item implements ItemInterface{
     //Implemented in your own way
     String name;
     int cost;
-    public Item(String name, int cost){
+    ArrayList<String> stats;
+    public Item(String name, int cost, ArrayList<String> stats){
         this.name = name;
         this.cost = cost;
+        this.stats = stats;
+    }
+    public String getName(){
+        return name;
     }
 }

@@ -4,9 +4,11 @@
  * @author Joshua Hergenroeder
  * @version v1
  */
+import java.util.ArrayList;
+import java.util.List;
 public abstract class RangedWeapon extends Weapon
 {
-    public RangedWeapon(String name, int cost){
-        super(name, cost);
+    public RangedWeapon(String name, int cost, ArrayList<String> stats){
+        super(name, cost, stats);
     }
 }

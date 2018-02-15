@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=LegendaryHealthPot
+comment1.params=name\ cost\ stats
+comment1.target=LegendaryHealthPot(java.lang.String,\ int,\ java.util.ArrayList)
+numComments=2

@@ -1,4 +1,3 @@
-
 /**
  * These are the required methods for all items.
  * 
@@ -6,6 +5,7 @@
  * @version 1.2
  */
 import java.util.ArrayList;
+import java.util.List;
 public interface ItemInterface
 {
     /**
@@ -15,5 +15,5 @@ public interface ItemInterface
      * @return        The name of the item 
      */
     public String getName();
-    //public ArrayList getStats();
+    public ArrayList getStats();
 }

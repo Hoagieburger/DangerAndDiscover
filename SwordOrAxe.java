@@ -1,12 +1,12 @@
 /**
- * Write a description of class ShortBow here.
+ * Write a description of class SwordOrAxe here.
  *
  * @author Joshua Hergenroeder
  * @version v1
  */
-public class ShortBow extends RangedWeapon
+public class SwordOrAxe extends MeleeWeapon
 {
-    public ShortBow(String name, int cost){
+    public SwordOrAxe(String name, int cost){
         super(name, cost);
     }
     public int attack(){
@@ -14,8 +14,5 @@ public class ShortBow extends RangedWeapon
     }
     public boolean parry(){
         return false;
-    }
-    public String getName(){
-        return name;
     }
 }

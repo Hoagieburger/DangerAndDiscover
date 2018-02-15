@@ -3,4 +3,6 @@ comment0.target=ItemInterface
 comment1.params=
 comment1.target=java.lang.String\ getName()
 comment1.text=\r\n\ This\ method\ gets\ the\ name\ of\ an\ item\r\n\ \r\n\r\n\ @return\ \ \ \ \ \ \ \ The\ name\ of\ the\ item\ \r\n
-numComments=2
+comment2.params=
+comment2.target=java.util.ArrayList\ getStats()
+numComments=3

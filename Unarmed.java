@@ -1,12 +1,12 @@
 /**
- * Write a description of class ShortSword here.
+ * Write a description of class Unarmed here.
  *
  * @author Joshua Hergenroeder
  * @version v1
  */
-public class ShortSword extends MeleeWeapon
+public class Unarmed extends MeleeWeapon
 {
-    public ShortSword(String name, int cost){
+    public Unarmed(String name, int cost){
         super(name, cost);
     }
     public int attack(){
@@ -14,8 +14,5 @@ public class ShortSword extends MeleeWeapon
     }
     public boolean parry(){
         return false;
-    }
-    public String getName(){
-        return name;
     }
 }
