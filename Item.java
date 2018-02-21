@@ -18,4 +18,7 @@ public abstract class Item implements ItemInterface{
     public String getName(){
         return name;
     }
+    public ArrayList getStats(){
+        return stats;
+    }
 }

@@ -4,4 +4,6 @@ comment1.params=name\ cost\ stats
 comment1.target=Item(java.lang.String,\ int,\ java.util.ArrayList)
 comment2.params=
 comment2.target=java.lang.String\ getName()
-numComments=3
+comment3.params=
+comment3.target=java.util.ArrayList\ getStats()
+numComments=4

@@ -6,18 +6,25 @@
  */
 import java.util.ArrayList;
 import java.util.List;
+import java.lang.Math;
 public class Bow extends RangedWeapon
 {
     public Bow(String name, int cost, ArrayList<String> stats){
         super(name, cost, stats);
+        this.name = name;
+        this.cost = cost;
+        this.stats = stats;
+        stats.add("Name: " + name);
+        stats.add("Cost: " + cost);
+        stats.add("Attack Range: ");
+        stats.add("Damage Range: 9 - 20");
     }
     public int attack(){
-        return 0;
+        int damage = (int)(Math.random() * 12 + 1);
+        damage += 8;
+        return damage;
     }
     public boolean parry(){
         return false;
-    }
-    public ArrayList getStats(){
-        return stats;
     }
 }
