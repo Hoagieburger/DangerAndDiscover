@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=PlayerCharacter
-comment1.params=name\ height\ age\ hpMax\ hpCur\ str\ dex\ intelligence\ wis\ cha\ speed\ strSave\ dexSave\ intSave\ wisSave\ chaSave\ acro\ animalHand\ arcana\ athletics\ deception\ insight\ intimidation\ investigation\ medicine\ nature\ perception\ persuasion\ religion\ slightOfHand\ stealth\ survival\ passivePerception\ copper\ silver\ gold\ platinum\ proficiency\ initiativeMod\ level
-comment1.target=PlayerCharacter(java.lang.String,\ double,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int)
+comment1.params=name\ height\ age\ hpMax\ hpCur\ con\ str\ dex\ intelligence\ wis\ cha\ speed\ acro\ arcana\ athletics\ deception\ insight\ intimidation\ investigation\ perception\ persuasion\ stealth\ passivePerception\ gold\ initiativeMod
+comment1.target=PlayerCharacter(java.lang.String,\ double,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int)
 comment2.params=
 comment2.target=void\ attack()
 numComments=3
