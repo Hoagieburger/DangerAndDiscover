@@ -6,9 +6,13 @@
  */
 import java.util.ArrayList;
 import java.util.List;
-public abstract class Spells extends Weapon
+public abstract class Spells
 {
-    public Spells(String name, int cost, ArrayList<String> stats){
-        super(name, cost, stats);
+    ArrayList<String> stats;
+    public Spells(){
+        stats = new ArrayList();
+    }
+    public ArrayList<String> getStats(){
+        return stats;
     }
 }
