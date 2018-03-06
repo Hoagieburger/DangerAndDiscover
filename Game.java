@@ -15,7 +15,7 @@ public class Game
     }
     public void PlayerCharacterCreator(){
         int[] playerStats = new int[6];
-        int str, intelligence, cha, wis, dex = 0, con = 0, hp, speed, acro;
+        int str = 0, intelligence = 0, cha = 0, wis = 0, dex = 0, con = 0, hp = 0, speed = 0, acro = 0, arcana = 0, athletics = 0, deception = 0, insight = 0, intimidation = 0, investigation = 0, perception = 0, persuasion = 0, stealth = 0, passivePerception = 0, gold = 0, initiativeMod = 0;
         String proficiency;
         System.out.println("What is your character's name? ");
         String name = input.nextLine().trim();
@@ -99,7 +99,163 @@ public class Game
             acro = 0;
         }else if (dex > 11 && dex < 15){
             acro = 1;
-        }// continue here
-        //player = new PlayerCharacter(name, height, age, hp, hp, con, str, dex, intelligence, wis, cha, speed, acro);
+        }else if (dex > 14 && dex < 18){
+            acro = 2;
+        }else{
+            acro = 3;
+        }
+        if (intelligence < 4){ //arcana assigner
+            arcana = -3;
+        }else if (intelligence > 3 && intelligence < 7){
+            arcana = -2;
+        }else if (intelligence > 6 && intelligence < 10){
+            arcana = -1;
+        }else if (intelligence > 9 && intelligence < 12){
+            arcana = 0;
+        }else if (intelligence > 11 && intelligence < 15){
+            arcana = 1;
+        }else if (intelligence > 14 && intelligence < 18){
+            arcana = 2;
+        }else{
+            arcana = 3;
+        }
+        if (str < 4){ //athletics assigner
+            athletics = -3;
+        }else if (str > 3 && str < 7){
+            athletics = -2;
+        }else if (str > 6 && str < 10){
+            athletics = -1;
+        }else if (str > 9 && str < 12){
+            athletics = 0;
+        }else if (str > 11 && str < 15){
+            athletics = 1;
+        }else if (str > 14 && str < 18){
+            athletics = 2;
+        }else{
+            athletics = 3;
+        }
+        if (cha < 4){ //deception assigner
+            deception = -3;
+        }else if (cha > 3 && cha < 7){
+            deception = -2;
+        }else if (cha > 6 && cha < 10){
+            deception = -1;
+        }else if (cha > 9 && cha < 12){
+            deception = 0;
+        }else if (cha > 11 && cha < 15){
+            deception = 1;
+        }else if (cha > 14 && cha < 18){
+            deception = 2;
+        }else{
+            deception = 3;
+        }
+        if (wis < 4){ //insight assigner
+            insight = -3;
+        }else if (wis > 3 && wis < 7){
+            insight = -2;
+        }else if (wis > 6 && wis < 10){
+            insight = -1;
+        }else if (wis > 9 && wis < 12){
+            insight = 0;
+        }else if (wis > 11 && wis < 15){
+            insight = 1;
+        }else if (wis > 14 && wis < 18){
+            insight = 2;
+        }else{
+            insight = 3;
+        }
+        if (cha < 4){ //intimidation assigner
+            intimidation = -3;
+        }else if (cha > 3 && cha < 7){
+            intimidation = -2;
+        }else if (cha > 6 && cha < 10){
+            intimidation = -1;
+        }else if (cha > 9 && cha < 12){
+            intimidation = 0;
+        }else if (cha > 11 && cha < 15){
+            intimidation = 1;
+        }else if (cha > 14 && cha < 18){
+            intimidation = 2;
+        }else{
+            intimidation = 3;
+        }
+        if (intelligence < 4){ //investigation assigner
+            investigation = -3;
+        }else if (intelligence > 3 && intelligence < 7){
+            investigation = -2;
+        }else if (intelligence > 6 && intelligence < 10){
+            investigation = -1;
+        }else if (intelligence > 9 && intelligence < 12){
+            investigation = 0;
+        }else if (intelligence > 11 && intelligence < 15){
+            investigation = 1;
+        }else if (intelligence > 14 && intelligence < 18){
+            investigation = 2;
+        }else{
+            investigation = 3;
+        }
+        if (wis < 4){ //perception assigner
+            perception = -3;
+        }else if (wis > 3 && wis < 7){
+            perception = -2;
+        }else if (wis > 6 && wis < 10){
+            perception = -1;
+        }else if (wis > 9 && wis < 12){
+            perception = 0;
+        }else if (wis > 11 && wis < 15){
+            perception = 1;
+        }else if (wis > 14 && wis < 18){
+            perception = 2;
+        }else{
+            perception = 3;
+        }
+        if (cha < 4){ //persuasion assigner
+            persuasion = -3;
+        }else if (cha > 3 && cha < 7){
+            persuasion = -2;
+        }else if (cha > 6 && cha < 10){
+            persuasion = -1;
+        }else if (cha > 9 && cha < 12){
+            persuasion = 0;
+        }else if (cha > 11 && cha < 15){
+            persuasion = 1;
+        }else if (cha > 14 && cha < 18){
+            persuasion = 2;
+        }else{
+            persuasion = 3;
+        }
+        if (dex < 4){ //stealth assigner
+            stealth = -3;
+        }else if (dex > 3 && dex < 7){
+            stealth = -2;
+        }else if (dex > 6 && dex < 10){
+            stealth = -1;
+        }else if (dex > 9 && dex < 12){
+            stealth = 0;
+        }else if (dex > 11 && dex < 15){
+            stealth = 1;
+        }else if (dex > 14 && dex < 18){
+            stealth = 2;
+        }else{
+            stealth = 3;
+        }
+        passivePerception = wis - 2;
+        gold = ((int)(Math.random() * 10 + 1) * 10 + (int)(Math.random() * 10 + 1));
+        if (dex < 4){ //initiativeMod assigner
+            initiativeMod = -3;
+        }else if (dex > 3 && dex < 7){
+            initiativeMod = -2;
+        }else if (dex > 6 && dex < 10){
+            initiativeMod = -1;
+        }else if (dex > 9 && dex < 12){
+            initiativeMod = 0;
+        }else if (dex > 11 && dex < 15){
+            initiativeMod = 1;
+        }else if (dex > 14 && dex < 18){
+            initiativeMod = 2;
+        }else{
+            initiativeMod = 3;
+        }
+        player = new PlayerCharacter(name, height, age, hp, hp, con, str, dex, intelligence, wis, cha, speed, acro, arcana, athletics, deception, insight, intimidation, investigation, perception, persuasion, stealth, passivePerception, gold, initiativeMod);
     }
 }

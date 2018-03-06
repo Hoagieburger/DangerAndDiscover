@@ -6,6 +6,7 @@
  */
 import java.util.ArrayList;
 import java.util.List;
+import java.lang.Math;
 public class LowerHealthPot extends HealthPot
 {
     public LowerHealthPot(String name, int cost, ArrayList<String> stats){
@@ -15,6 +16,10 @@ public class LowerHealthPot extends HealthPot
         this.stats = stats;
         stats.add("Name: " + name);
         stats.add("Cost: " + cost);
-        stats.add("Healing Range: ");
+        stats.add("Healing Range: 5 - 15");
+    }
+    public int heal(){
+        int healAmount = (int)(Math.random() * 11 ) + 5;
+        return healAmount;
     }
 }

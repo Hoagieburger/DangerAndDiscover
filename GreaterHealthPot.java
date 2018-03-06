@@ -15,6 +15,10 @@ public class GreaterHealthPot extends HealthPot
         this.stats = stats;
         stats.add("Name: " + name);
         stats.add("Cost: " + cost);
-        stats.add("Healing Range: ");
+        stats.add("Healing Range: 15 - 30");
+    }
+    public int heal(){
+        int healAmount = (int)(Math.random() * 16 ) + 15;
+        return healAmount;
     }
 }

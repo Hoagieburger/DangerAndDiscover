@@ -2,4 +2,6 @@
 comment0.target=GreaterHealthPot
 comment1.params=name\ cost\ stats
 comment1.target=GreaterHealthPot(java.lang.String,\ int,\ java.util.ArrayList)
-numComments=2
+comment2.params=
+comment2.target=int\ heal()
+numComments=3

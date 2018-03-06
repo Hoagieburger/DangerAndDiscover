@@ -15,6 +15,10 @@ public class LegendaryHealthPot extends HealthPot
         this.stats = stats;
         stats.add("Name: " + name);
         stats.add("Cost: " + cost);
-        stats.add("Healing Range: ");
+        stats.add("Healing Range: 30 - 50");
+    }
+    public int heal(){
+        int healAmount = (int)(Math.random() * 21 ) + 30;
+        return healAmount;
     }
 }
