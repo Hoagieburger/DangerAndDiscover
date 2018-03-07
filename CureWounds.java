@@ -9,11 +9,14 @@ public class CureWounds extends Spells
 {
     public CureWounds(){
         super();
-        stats.add("Spell Range: 20 meters");
-        stats.add("Healing Range: 10 - 25");
+        stats.add("Spell Range: Touch");
+        stats.add("Healing Range: 4 - 32");
     }
-    public int cast(){
-        int healed = 10 + (int)(Math.random() * 16);
+    public int cast(){//4d8
+        int healed = 0;
+        for (int i = 0; i < 5; i++){
+            healed += (int)(Math.random() * 8 + 1);
+        }
         return healed;
     }
 }
