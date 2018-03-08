@@ -39,4 +39,22 @@ public abstract class Character
         this.gold = gold;
         this.initiativeMod = initiativeMod;
     }
+    public void modDex(int mod){
+        dex += mod;
+    }
+    public void modCon(int mod){
+        con += mod;
+    }
+    public void modStr(int mod){
+        str += mod;
+    }
+    public void modInt(int mod){
+        intelligence += mod;
+    }
+    public void modWis(int mod){
+        wis += mod;
+    }
+    public void modCha(int mod){
+        cha += mod;
+    }
 }

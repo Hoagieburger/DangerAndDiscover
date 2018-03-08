@@ -6,7 +6,8 @@
  */
 public class Wizard
 {
-    public Wizard(){
-    
+    public Wizard(Character character){
+        character.modInt(2);
+        character.modWis(1);
     }
 }

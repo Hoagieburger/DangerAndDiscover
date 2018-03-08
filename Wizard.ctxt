@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Wizard
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ Wizard\ here.\r\n\r\n\ @author\ Joshua\ Hergenroeder\r\n\ @version\ v1\r\n
-comment1.params=
-comment1.target=Wizard()
+comment1.params=character
+comment1.target=Wizard(Character)
 numComments=2
