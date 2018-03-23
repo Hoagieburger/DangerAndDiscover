@@ -10,15 +10,16 @@ public abstract class Item implements ItemInterface{
     String name;
     int cost;
     ArrayList<String> stats;
-    public Item(String name, int cost, ArrayList<String> stats){
+    public Item(String name){
         this.name = name;
-        this.cost = cost;
-        this.stats = stats;
     }
     public String getName(){
         return name;
     }
     public ArrayList getStats(){
         return stats;
+    }
+    public int getCost(){
+        return cost;
     }
 }

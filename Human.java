@@ -4,9 +4,10 @@
  * @author Joshua Hergenroeder
  * @version v1
  */
-public class Human
+public class Human extends Races
 {
     public Human(Character character){
+        super();
         character.modCon(1);
         character.modStr(1);
         character.modDex(1);

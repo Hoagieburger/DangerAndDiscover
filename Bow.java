@@ -9,11 +9,8 @@ import java.util.List;
 import java.lang.Math;
 public class Bow extends RangedWeapon
 {
-    public Bow(String name, int cost, ArrayList<String> stats){
-        super(name, cost, stats);
-        this.name = name;
-        this.cost = cost;
-        this.stats = stats;
+    public Bow(String name){
+        super(name);
         stats.add("Name: " + name);
         stats.add("Cost: " + cost);
         stats.add("Attack Range: ");

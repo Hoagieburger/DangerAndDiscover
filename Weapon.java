@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 public abstract class Weapon extends Item implements WeaponInterface
 {
-    public Weapon(String name, int cost, ArrayList<String> stats){
-        super(name, cost, stats);
+    public Weapon(String name){
+        super(name);
     }
 }

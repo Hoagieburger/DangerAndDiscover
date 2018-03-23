@@ -8,7 +8,11 @@ import java.util.ArrayList;
 import java.util.List;
 public abstract class Armor extends Item implements DefenseCommands
 {
-    public Armor(String name, int cost, ArrayList<String> stats){
-        super(name, cost, stats);
+    int acBonus;
+    public Armor(String name){
+        super(name);
+    }
+    public int getACBonus(){
+        return acBonus;
     }
 }

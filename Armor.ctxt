@@ -1,5 +1,7 @@
 #BlueJ class context
 comment0.target=Armor
-comment1.params=name\ cost\ stats
-comment1.target=Armor(java.lang.String,\ int,\ java.util.ArrayList)
-numComments=2
+comment1.params=name
+comment1.target=Armor(java.lang.String)
+comment2.params=
+comment2.target=int\ getACBonus()
+numComments=3

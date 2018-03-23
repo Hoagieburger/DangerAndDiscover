@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=NoArmor
+comment1.params=name
+comment1.target=NoArmor(java.lang.String)
+comment2.params=
+comment2.target=boolean\ blocked()
+numComments=3

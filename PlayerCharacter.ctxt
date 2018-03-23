@@ -1,7 +1,5 @@
 #BlueJ class context
 comment0.target=PlayerCharacter
-comment1.params=name\ height\ age\ hpMax\ hpCur\ con\ str\ dex\ intelligence\ wis\ cha\ speed\ acro\ arcana\ athletics\ deception\ insight\ intimidation\ investigation\ perception\ persuasion\ stealth\ passivePerception\ gold\ initiativeMod
-comment1.target=PlayerCharacter(java.lang.String,\ double,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int)
-comment2.params=
-comment2.target=void\ attack()
-numComments=3
+comment1.params=name\ height\ age\ con\ str\ dex\ intelligence\ wis\ cha\ gold
+comment1.target=PlayerCharacter(java.lang.String,\ double,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int)
+numComments=2

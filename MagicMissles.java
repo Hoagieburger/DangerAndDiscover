@@ -8,7 +8,6 @@ import java.lang.Math;
 public class MagicMissles extends Spells
 {
     public MagicMissles(){
-        super();
         stats.add("Spell Range: 40 meters");
         stats.add("Damage Range: 2 - 5");
     }

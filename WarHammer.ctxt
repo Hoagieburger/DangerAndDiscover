@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=WarHammer
-comment1.params=name\ cost\ stats
-comment1.target=WarHammer(java.lang.String,\ int,\ java.util.ArrayList)
+comment1.params=name
+comment1.target=WarHammer(java.lang.String)
 comment2.params=
 comment2.target=int\ attack()
 comment3.params=

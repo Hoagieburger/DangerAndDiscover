@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 public abstract class Misc extends Item
 {
-    public Misc(String name, int cost, ArrayList<String> stats){
-        super(name, cost, stats);
+    public Misc(String name){
+        super(name);
     }
 }

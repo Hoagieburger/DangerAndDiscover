@@ -8,7 +8,6 @@ import java.lang.Math;
 public class Fireball extends Spells
 {
     public Fireball(){
-        super();
         stats.add("Spell Range: 50 meters");
         stats.add("Damage Range: 6 - 48");
     }

@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 public abstract class HealthPot extends Consumable
 {
-    public HealthPot(String name, int cost, ArrayList<String> stats){
-        super(name, cost, stats);
+    public HealthPot(String name){
+        super(name);
     }
 }

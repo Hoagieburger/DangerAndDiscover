@@ -3,5 +3,5 @@ comment0.target=Game
 comment1.params=
 comment1.target=Game()
 comment2.params=
-comment2.target=void\ PlayerCharacterCreator()
+comment2.target=PlayerCharacter\ PlayerCharacterCreator()
 numComments=3

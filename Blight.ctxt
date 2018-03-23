@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Blight
+comment1.params=
+comment1.target=Blight()
+comment2.params=target
+comment2.target=int\ cast(Enemy)
+numComments=3

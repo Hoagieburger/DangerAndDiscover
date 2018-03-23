@@ -8,7 +8,6 @@ import java.lang.Math;
 public class CureWounds extends Spells
 {
     public CureWounds(){
-        super();
         stats.add("Spell Range: Touch");
         stats.add("Healing Range: 4 - 32");
     }

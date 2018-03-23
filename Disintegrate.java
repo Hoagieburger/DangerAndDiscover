@@ -8,7 +8,6 @@ import java.lang.Math;
 public class Disintegrate extends Spells
 {
     public Disintegrate(){
-        super();
         stats.add("Spell Range: 60");
         stats.add("Damage Range: 50 - 100");
     }

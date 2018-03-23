@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 public abstract class RangedWeapon extends Weapon
 {
-    public RangedWeapon(String name, int cost, ArrayList<String> stats){
-        super(name, cost, stats);
+    public RangedWeapon(String name){
+        super(name);
     }
 }

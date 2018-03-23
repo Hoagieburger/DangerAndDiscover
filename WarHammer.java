@@ -9,11 +9,8 @@ import java.util.List;
 import java.lang.Math;
 public class WarHammer extends MeleeWeapon
 {
-    public WarHammer(String name, int cost, ArrayList<String> stats){
-        super(name, cost, stats);
-        this.name = name;
-        this.cost = cost;
-        this.stats = stats;
+    public WarHammer(String name){
+        super(name);
         stats.add("Name: " + name);
         stats.add("Cost: " + cost);
         stats.add("Attack Range: ");

@@ -8,7 +8,6 @@ import java.lang.Math;
 public class ChainLightning extends Spells
 {
     public ChainLightning(){
-        super();
         stats.add("Spell Range: 50 meters");
         stats.add("Damage Range: 8 - 80");
     }

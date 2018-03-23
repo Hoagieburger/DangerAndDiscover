@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 public abstract class Consumable extends Item
 {
-    public Consumable(String name, int cost, ArrayList<String> stats){
-        super(name, cost, stats);
+    public Consumable(String name){
+        super(name);
     }
 }

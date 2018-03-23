@@ -7,7 +7,6 @@
 public class PowerWordKill extends Spells
 {
     public PowerWordKill(){
-        super();
         stats.add("Spell Range: 20 meters");
         stats.add("Damage Range: Instantly kills target under 100 hp");
     }

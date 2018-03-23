@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=ShopKeep
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ ShopKeep\ here.\r\n\r\n\ @author\ Joshua\ Hergenroeder\r\n\ @version\ v1\r\n
-comment1.params=name\ storeType\ storeName
-comment1.target=ShopKeep(java.lang.String,\ java.lang.String,\ java.lang.String)
-numComments=2
